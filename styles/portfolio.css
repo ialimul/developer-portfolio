@@ -21,6 +21,13 @@ nav{
     justify-content: space-between;
     margin: 50px 200px;
 }
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 .nav-title{
     font-size: 45px;
     line-height: 61px;   
@@ -32,4 +39,36 @@ nav ul{
 nav li{
     list-style: none;
     margin-left: 50px;
+}
+/* banner styles */
+.banner{
+    margin: 0px 200px;
+    align-items: center;
+    display: flex;
+}
+.banner-tittle{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-sub-tittle{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* about section */
+/* about section */
+.about{
+    
+}
+.secition-title{
+
+}
+.section-description{
+
 }
