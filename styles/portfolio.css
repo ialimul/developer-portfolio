@@ -62,13 +62,36 @@ nav li{
 }
 
 /* about section */
-/* about section */
 .about{
-    
+    text-align: center;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px 150px;
 }
-.secition-title{
-
+.section-title{
+    /* text-align: center; */
+    font-size: 45px;
+    width: 700;
 }
 .section-description{
+    /* text-align: center; */
+    font-size: 35px;
+    width: 600;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 
+}
+.about .about-info{
+    color: #757575;
+    font-size: 15px;
+    width: 400;
+}
+.info-description{
+    font-size: 20px;
+    width: 400;
+    color: #474747;
 }
